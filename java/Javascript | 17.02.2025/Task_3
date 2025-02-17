@@ -1,0 +1,14 @@
+function checkDigitSum(num) {
+    let sum = 0;
+    let temp = num;
+
+    while (temp > 0) {
+        sum += temp % 10; // Extract the last digit and add to sum
+        temp = Math.floor(temp / 10); // Remove the last digit
+    }
+
+    console.log(`Sum of digits of ${num} is ${sum}, which is ${sum % 2 === 0 ? "Even" : "Odd"}.`);
+}
+
+// Example usage
+checkDigitSum(1234);
