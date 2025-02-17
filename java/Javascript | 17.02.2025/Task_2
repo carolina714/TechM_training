@@ -1,0 +1,12 @@
+function displayFactors(num) {
+    console.log(`Factors of ${num} are:`);
+
+    for (let i = 1; i <= num; i++) {
+        if (num % i === 0) {
+            console.log(i);
+        }
+    }
+}
+
+// Example usage
+displayFactors(36);
