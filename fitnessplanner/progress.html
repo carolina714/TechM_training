@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Progress Tracker</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="create.html">Create Routine</a></li>
+                <li><a href="routines.html">My Routines</a></li>
+                <li><a href="progress.html">Progress Tracker</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Your Progress</h2>
+        <div class="chart-container"> 
+        <canvas id="progress-chart"></canvas>
+        </div>
+    </main>
+
+    <!-- Chart.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Chart Code -->
+    <script>
+        const ctx = document.getElementById("progress-chart").getContext("2d");
+
+        new Chart(ctx, {
+            type: "line",
+            data: {
+                labels: ["Week 1", "Week 2", "Week 3", "Week 4"], 
+                datasets: [{
+                    label: "Workout Progress",
+                    data: [3, 5, 7, 10], 
+                    borderColor: "blue",
+                    backgroundColor: "rgba(0, 0, 255, 0.2)",
+                    borderWidth: 2,
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false
+            }
+        });
+    </script>
+</body>
+</html>
