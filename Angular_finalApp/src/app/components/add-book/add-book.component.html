@@ -1,0 +1,12 @@
+<h2>Add a New Book</h2>
+<label>Title:</label>
+<input type="text" [(ngModel)]="book.title" />
+
+<label>Author:</label>
+<input type="text" [(ngModel)]="book.author" />
+
+<label>Genre:</label>
+<input type="text" [(ngModel)]="book.genre" />
+
+<button (click)="addBook()">Add Book</button>
+

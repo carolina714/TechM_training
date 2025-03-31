@@ -1,0 +1,10 @@
+<div *ngIf="book; else noBookSelected">
+    <h2>{{ book.title }}</h2>
+    <p><strong>Author:</strong> {{ book.author }}</p>
+    <p><strong>Genre:</strong> {{ book.genre }}</p>
+    <button (click)="book = null">Close</button>
+</div>
+
+<ng-template #noBookSelected>
+    <p>No book selected. Click on a book from the list to view details.</p>
+</ng-template>
