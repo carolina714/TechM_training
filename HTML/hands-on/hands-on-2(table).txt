@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL teams 2025</title>
+<body>
+    <h1> IPL teams 2025</h1>
+    <table border="5">
+        <thead>
+            <tr>
+                <th>Team name</th>
+                <th>Team captain</th>
+                <th>Number of trophies</th>
+             </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Chennai super Kings</td>
+                <td>M S Dhoni </td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td> Mumbai Indians</td>
+                <td> Hardik Pandya</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Royal challengers bengaluru</td>
+                <td>Virat Kohli</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Sunrisers Hyderabad</td>
+                <td>Pat Cummins</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Kolkata knight riders</td>
+                <td>Venkatesh</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</head>

@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title> My Personal Blog </title>
+    </head>
+
+<body>
+    <h1> Welcome to Carolina's Personal Blog</h1>
+    <p> DevOps | Project Management  </p>
+    <h2> Competencies of java </h2>
+    <p> This blog discusses the core competencies of java full stack </p>
+    <a href="https://github.com/carolina714" >https://github.com/carolina714</a>
+
+</body>
+<footer>
+    <p>&copy; 2024 Carolina Christopher. All rights reserved.</p>
+</footer>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <h1>LOGIN PAGE </h1>
+    <form action="/submit-contact-form" 
+          method="get">
+   
+        <label for="name">User Name:</label><br>
+        <br>
+        <input type="text" id="name" name="name" required max="40"></br>
+
+        <br> 
+        <label for="email">Password:</label></br>
+        <br>
+        <input type="password" id="password" name="password" required max="40"></br>
+
+        
+        <br>
+        <button style="background-color: blue;">Login </button></br>
+    </form>
+</body>
+</html>
